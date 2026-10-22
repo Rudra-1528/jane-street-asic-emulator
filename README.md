@@ -9,6 +9,7 @@ Programmable UART, SPI, and I2C protocol emulator SoC for the 2027 Jane Street A
 
 ## 1. Top-Level System Architecture
 This System-on-Chip (SoC) emulates standard hardware communication protocols. To ensure physical silicon viability, all IP blocks operate on a single synchronous system clock domain. 
+![Top-Level Architecture Diagram](architecture-diagram.jpg)
 
 ## 2. Silicon-Specific Architectural Upgrades
 Unlike basic FPGA behavioral logic, this ASIC architecture implements strict physical design rules:

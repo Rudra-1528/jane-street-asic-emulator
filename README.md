@@ -1,5 +1,5 @@
-# jane-street-asic-emulator
-Programmable UART, SPI, and I2C protocol emulator SoC for the 2027 Jane Street ASIC Challenge.
+# Jane Street ASIC Emulator
+Programmable UART, SPI, and I2C protocol Emulator SoC for the 2027 Jane Street ASIC Challenge.
 # Micro-Architecture Specification (MAS): Protocol Emulator SoC
 **Project:** Jane Street ASIC Challenge 2027
 

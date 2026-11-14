@@ -9,7 +9,9 @@ Programmable I/O (PIO) Protocol Emulator SoC for the 2027 Jane Street ASIC Chall
 ## 1. Top-Level System Architecture
 This System-on-Chip (SoC) operates as a highly flexible Programmable I/O (PIO) coprocessor, inspired by the RP2040 PIO state machines. Rather than implementing fixed, hardcoded FSMs for UART, SPI, or I2C, this architecture utilizes a unified execution engine that reads custom instruction words from an internal RAM block. 
 
-*(Insert your AI-generated Architecture Diagram here)*
+<img width="2968" height="1550" alt="Programmable IO Protocol Emulator SoC Architecture" src="https://github.com/user-attachments/assets/16019ea6-1036-4f19-8cf9-aada24e91c7b" />
+
+<img width="3503" height="2190" alt="diagram-export-15-11-2026-02_11_45" src="https://github.com/user-attachments/assets/6741a118-6731-4843-b4e6-357258f1fb9f" />
 
 By executing a tiny Instruction Set Architecture (ISA) with cycle-level accuracy, the SoC can bit-bang any standard or custom serial protocol entirely through post-fabrication firmware. All blocks operate on a single synchronous system clock domain to ensure physical silicon viability.
 
